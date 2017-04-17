@@ -1,0 +1,26 @@
+{
+  "name": "trackify",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "knex": "knex",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Jake Bell <jakebrbell@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "boom": "^4.1.0",
+    "express": "^4.14.0",
+    "humps": "^1.1.0",
+    "knex": "^0.12.2",
+    "morgan": "^1.7.0",
+    "pg": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
