@@ -2,6 +2,7 @@
 
 const express = require('express');
 const app = express();
+const users = require('./routes/users');
 
 app.disable('x-powered-by');
 
@@ -10,6 +11,7 @@ const morgan = require('morgan');
 
 app.use(morgan('dev'));
 app.use(bodyParser.json());
+app.use(users);
 
 const tracks = require('./routes/tracks');
 
